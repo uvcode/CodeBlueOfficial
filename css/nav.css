@@ -1,0 +1,95 @@
+#menu a#pull {
+	display: none;
+}
+
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+	#menu {
+		border-bottom: 0;
+
+	}
+	#menu ul {
+		display: none;
+		height: auto;
+	}
+	#menu a#pull {
+		display: block;
+		color: white;
+		text-align: center;
+		padding-top: 15px;
+		background-color: #283744;
+		width: 100%;
+		height: 40px;
+		position: relative;
+		margin-top: -4px;
+		text-decoration: none;
+	}
+	#menu a#pull:after {
+		content:"";
+		background: url('nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+	#menu
+	{
+		border-top: 4px solid #7f7f7f;
+		font-size: 19px;
+	}	
+	#menu ul
+	{
+		padding: 0;
+		margin: 0;
+	}
+	#menu ul li
+  	{
+    	display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	text-align: center;    	
+    	margin-top: auto;
+    	margin-bottom: 0;
+    	
+    	padding: 0;
+  	}
+  	#menu ul li:hover
+  	{
+    	background: #003333;
+  	}
+  	#menu ul li a
+  	{ 		
+  		margin: 0;
+  		display: block;
+  		padding: 5px 0;
+  		
+  	}
+  	#menu #avatar
+  	{
+  		
+  		text-align: center;
+  		vertical-align: top;
+  	}
+  	form 
+  	{
+  		text-align: center;
+  	}
+
+
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+	#menu li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	#menu li a {
+		border-bottom: 1px solid #576979;
+	}
+
+}

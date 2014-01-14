@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<title>CodeBlue: Comunidad social coding</title>
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script>
+			$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+		</script>
+
+</head>
+<body>
+	<header>
+		
+		<figure>
+			<img src="img/logo.png">
+		</figure>
+		<h2 id="titulo">CodeBlue: Comunidad social coding</h2>
+			
+	</header>
+	<nav id="menu">
+		<ul>
+			<li><a href="/"></a></li>
+			<li><a href="#">Foros</a></li>
+			<li><a href="#">Repositorio de codigo</a></li>
+			<li><a href="#">Nuestro equipo</a></li>
+			<li><a href="#">f</a></li>
+			<li><a href="#">t</a></li>
+			<li><a href="#">g+</a></li>	
+		</ul>
+		<a href="#" id="pull">Menu</a>	
+	</nav>
+	<section id="post">
+		<article class="articulos_index"> 
+			<div class="extract"> 
+				<a href="#" title="[Tip] Personalizar GRUB2 en ArchLinux"> 
+					<div class="thumb">  
+						<img  height="240" src="img/css3.jpg">  
+						<h2>[Tutorial] Conoce CSS3</h2> 
+					</div> 
+				</a> 
+			</div> 
+			<div class="info"> 
+				<ul class="pull-left"> 
+					<li><a href="#" class="tooltips"><i class="icon-user"></i>UserName</a>
+					</li> 
+					<li><i class="icon-time icon"></i>
+					</li> 
+				</ul> 
+				<ul class="pull-right"> 
+					<li><a href="#" class="comments tooltips"><i class="icon-comment"></i>Comentarios: 16</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="articulos_index"> 
+			<div class="extract"> 
+				<a href="#" title="[Tip] Personalizar GRUB2 en ArchLinux"> 
+					<div class="thumb">  
+						<img width="320" height="240" src="img/html5.jpg">  
+						<h2>[Tip] Nuevas Etiquetas</h2> 
+					</div> 
+				</a> 
+			</div> 
+			<div class="info"> 
+				<ul class="pull-left"> 
+					<li><a href="#" class="tooltips"><i class="icon-user"></i>UserName</a>
+					</li> 
+					<li><i class="icon-time icon"></i>
+					</li> 
+				</ul> 
+				<ul class="pull-right"> 
+					<li><a href="#" class="comments tooltips"><i class="icon-comment"></i>Comentarios: 16</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="articulos_index"> 
+			<div class="extract"> 
+				<a href="#" title="[Tip] Personalizar GRUB2 en ArchLinux"> 
+					<div class="thumb">  
+						<img width="320" height="240" src="img/nodejs.jpg">  
+						<h2>[Tutorial] Desarrolla un chat</h2> 
+					</div> 
+				</a> 
+			</div> 
+			<div class="info"> 
+				<ul class="pull-left"> 
+					<li><a href="#" class="tooltips"><i class="icon-user"></i>UserName</a>
+					</li> 
+					<li><i class="icon-time icon"></i>
+					</li> 
+				</ul> 
+				<ul class="pull-right"> 
+					<li><a href="#" class="comments tooltips"><i class="icon-comment"></i>Comentarios: 16</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="articulos_index"> 
+			<div class="extract"> 
+				<a href="#" title="[Tip] Personalizar GRUB2 en ArchLinux"> 
+					<div class="thumb">  
+						<img width="320" height="240" src="img/nodejs.jpg">  
+						<h2>[Tutorial] Desarrolla un chat</h2> 
+					</div> 
+				</a> 
+			</div> 
+			<div class="info"> 
+				<ul class="pull-left"> 
+					<li><a href="#" class="tooltips"><i class="icon-user"></i>UserName</a>
+					</li> 
+					<li><i class="icon-time icon"></i>
+					</li> 
+				</ul> 
+				<ul class="pull-right"> 
+					<li><a href="#" class="comments tooltips"><i class="icon-comment"></i>Comentarios: 16</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="articulos_index"> 
+			<div class="extract"> 
+				<a href="#" title="[Tip] Personalizar GRUB2 en ArchLinux"> 
+					<div class="thumb">  
+						<img width="320" height="240" src="img/nodejs.jpg">  
+						<h2>[Tutorial] Desarrolla un chat</h2> 
+					</div> 
+				</a> 
+			</div> 
+			<div class="info"> 
+				<ul class="pull-left"> 
+					<li><a href="#" class="tooltips"><i class="icon-user"></i>UserName</a>
+					</li> 
+					<li><i class="icon-time icon"></i>
+					</li> 
+				</ul> 
+				<ul class="pull-right"> 
+					<li><a href="#" class="comments tooltips"><i class="icon-comment"></i>Comentarios: 16</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<article class="articulos_index"> 
+			<div class="extract"> 
+				<a href="#" title="[Tip] Personalizar GRUB2 en ArchLinux"> 
+					<div class="thumb">  
+						<img width="320" height="240" src="img/nodejs.jpg">  
+						<h2>[Tutorial] Desarrolla un chat</h2> 
+					</div> 
+				</a> 
+			</div> 
+			<div class="info"> 
+				<ul class="pull-left"> 
+					<li><a href="#" class="tooltips"><i class="icon-user"></i>UserName</a>
+					</li> 
+					<li><i class="icon-time icon"></i>
+					</li> 
+				</ul> 
+				<ul class="pull-right"> 
+					<li><a href="#" class="comments tooltips"><i class="icon-comment"></i>Comentarios: 16</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<div id="pageview">
+				<a href="#" class="pagelarger">1</a>
+				<a href="#" class="pagelarger">2</a>
+				<a href="#" class="pagelarger">3</a>
+				<a href="#" class="pagelarger">5</a>
+				<a href="#" class="pagelarger">10</a>
+				<a href="#" class="pagelarger">15</a>
+			<span class="extend">...</span>
+				<a href="#" class="nextpostslink">»</a>
+				<a href="#" class="last">Última »</a>
+		</div>
+	</section>
+	<section id="reporte">
+		<div>
+			<div class="reporte_info"> 
+				<ul> 
+					<li><a href="#">Facebook: 15</a></li> 
+				</ul> 
+			</div>
+			<div class="reporte_info"> 
+				<ul> 
+					<li><a href="#">twitter: 20</a></li> 
+				</ul> 
+			</div>
+			<div class="reporte_info"> 
+				<ul> 
+					<li><a href="#">google+: 30 </a></li> 
+				</ul> 
+			</div>			
+		</div>
+	</section>
+	<footer>
+		<div class="mensaje"><h3>Invierte en lenguajes arriesgados, escapa de los aburridos</h3></div>
+		
+		<div class="desing_info">
+			<figure>
+				<img src="img/logo.png">
+			</figure>
+			<h2>Diseñado por: 
+				<a href="#">Luis Alberto</a> 
+				Programado por:
+				<a href="#">Luis Alberto</a>
+			</h2>
+			<h2 class="lang">HTML5</h2>
+			<h2 class="lang">CSS3</h2>
+			<h2 class="lang">Python</h2>
+			<h2 class="lang">Django</h2>
+			<h2 class="lang">Node.js</h2>
+			<h2 class="lang">JavaScript</h2>
+		</div>
+		<p>
+			Este es un nuevo proyecto que surgió de la necesidad de hacer nuevas formas de desarrollo, diseño en la nuevas tecnologias que se presentan a diario.
+		</p>
+	</footer>
+
+</body>
+</html>

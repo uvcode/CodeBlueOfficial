@@ -1,0 +1,172 @@
+#post .articulos_index
+{
+	-moz-border-radius:6px 0 6px 0;
+	-webkit-border-radius:6px 0 6px 0;
+	border-radius:6px 0 6px 0;
+	background-color:#FFF;
+	box-shadow:0 1px 2px #666;
+	display:inline-block;
+	margin:20px 10px 60px 10px;
+	max-width:350px;
+	vertical-align:top;
+}
+.articulos_index h2
+{
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	font-family:"Source Sans Pro","Open Sans",Verdana,Helvetica,sans-serif;
+	font-size:17px;
+	font-weight:normal;
+	height:80px;	
+	line-height:25px;
+	margin:-103px 0 55px 0;
+	opacity:.85;
+	padding:10px 25px;
+	text-decoration:none;
+	vertical-align:top;width:300px
+}
+.articulos_index h2:hover
+{
+	background-color:#20B2AA;
+	color:#fff;
+	display:inline-block;
+	text-decoration:none;
+	opacity:1
+}
+.thumb
+{
+	-moz-border-radius:6px 0 0 0;
+	-webkit-border-radius:6px 0 0 0;
+	background-color:#fff;
+	border-radius:6px 0 0 0;
+	height:230px;
+	margin-bottom:1px;
+	text-align:center;
+	width:100%
+}
+.thumb>img
+{
+	-moz-border-radius:6px 0 0 0;
+	-webkit-border-radius:6px 0 0 0;
+	background-color:#fff;
+	border-bottom:1px dashed #f9f9f9;
+	border-radius:6px 0 0 0;
+	height:210px;
+}
+.info{
+	-moz-border-radius:0 0 6px 0;
+	-webkit-border-radius:0 0 6px 0;
+	background-color:#20B2AA;
+	border-radius:0 0 6px 0;
+	color:white;
+	font-size:14px;
+	height:100%;
+	width:100%;
+}
+.info ul
+{
+	margin:15px 25px;
+	padding:10px;
+	display: inline-block;
+}
+.info ul li
+{
+	display:inline-block;
+	list-style:none;
+	margin:0 5px 0 5px
+}
+.info ul li a
+{
+	color:white;
+	font-size:13px;
+	text-decoration:none
+}
+.info ul li a:hover
+{
+	color:black;
+	font-size:13px;
+	text-decoration:none;
+}
+.thumb
+{
+	max-width:100%
+}
+.thumb>img
+{
+	height:245px
+}
+#reporte
+{
+		
+	text-align: center;
+}
+#reporte .reporte_info
+{
+	display: inline-block;
+
+}
+#reporte .reporte_info ul
+{
+	background: white;
+	box-shadow: 1px 3px 3px #888;
+	padding: 8px;
+	margin: 35px 10px;
+	list-style: none;
+	transition:0.5s;
+}
+#reporte .reporte_info ul:hover
+{
+	background: #20B2AA;
+}
+#reporte .reporte_info ul a
+{
+	color: #283744;
+	padding: 9px
+}
+
+footer .mensaje
+{
+	
+	margin-bottom: 15px;
+}
+footer .mensaje h3
+{
+	text-align: center;
+	color: white;
+}
+
+
+footer .desing_info figure img
+{
+	width: 80px;
+	margin-top: 30px;
+}
+footer .desing_info .lang
+{
+	color: white;
+	font-size: 15px;
+	display: inline-block;
+	margin-left: 2px;
+}
+#pageview
+{
+	margin-top: 10px;
+	text-align: center;
+}
+ #pageview .pagelarger
+ {
+ 	background: #f2f2f2;
+ 	padding: 3.5px;
+ 	margin: 0 5px;
+ 	border: 1px solid #ccc;
+ 	border-radius: 4px 0 4px 0;
+ }
+ #pageview .extend
+ {
+ 	font-size: 18px;
+ }
+ #pageview .nextpostslink, #pageview .last
+ {
+ 	color: #20B2AA;
+ }
